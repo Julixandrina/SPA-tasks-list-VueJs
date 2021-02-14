@@ -1,0 +1,58 @@
+#app {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+
+  h1 {
+    color: #10782B;
+  }
+
+  .input-field {
+    margin-top: 0;
+    margin-bottom: 3rem;
+  }
+  .select-wrapper+label {
+
+    top: -7px;
+  }
+  .search-content {
+    padding-top: 2rem;
+  }
+  .text-list {
+    color: #105178;
+    text-align: center;
+  }
+  .title-task {
+    color: #11824F;
+  }
+  span.badge.new {
+
+    background-color: #6A1E6B;
+}
+  .btn-container {
+    padding-top: 1rem;
+    button {
+      margin-right: 1rem;
+    }
+  }
+  .create-link {
+    color: #2DF7D6;
+  }
+}
+
+.nav-block {
+  padding: 0 1rem;
+  .brand-logo {
+    color: #2DF7D6;
+  }
+}
+
+footer {
+  a {
+    color: #2DF7D6;
+  }
+}
